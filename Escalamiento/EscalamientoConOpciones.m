@@ -38,6 +38,7 @@ function EscalamientoConOpciones()
         t1 = (0:length(AudioEscalamiento)-1) / frecuenciaEsc; % Dominio de tiempo para x1
         t2 = (0:length(AudioEscalamiento)-1) / nueva_fs; % Dominio de tiempo para x1
         
+         % Graficar la señal original y la señal escalada en el dominio del tiempo
          figure;
             hold on;
             plot(t1, AudioEscalamiento);
