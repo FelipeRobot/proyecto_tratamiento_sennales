@@ -12,7 +12,7 @@ Juan Felipe Useche- Ingeniería Mecatrónica
 
 Método 1: Descargar el archivo completo.
   En caso de no querer clonar el repositorio con 'git' dirígete a la parte superior de esta página. 
-  Al costado derecha habrá un botón de color verde con el texto: '<code>'. Al hacer click sobre este elemento emergerá una pequeña ventana,
+  Al costado derecha habrá un botón de color verde con el texto: 'code'. Al hacer click sobre este elemento emergerá una pequeña ventana,
   en la parte inferior de la misma habrá la opción "Descargar archivo compreso ZIP"
 
   Una vez descargado, descomprir el archivo en la ubicación deseada y usando el software Matlab pararse sobre el archivo 'main.m' encontrado
