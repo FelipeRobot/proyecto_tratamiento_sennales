@@ -4,7 +4,7 @@
 
 function impulso()
     addpath('main\');
-
+while true 
     current_state = menu('Seleccione una opción','Audio original', 'Respuesta impulso 1','Respuesta impulso 2','Respuesta impulso 3','Respuesta impulso 4' ,'Volver al menú principal');
     
     switch current_state
@@ -29,8 +29,10 @@ function impulso()
             respuesta_impulso(impulso4);
             impulso();
         case 6
-           state_holder();
+           break;
+         
     end
+end
 end
 
     function respuesta_impulso(sennal_impulso)
@@ -40,5 +42,3 @@ end
         sound(y_impulso,fs1); % Reproduce la señal resultante
 
     end
-
-

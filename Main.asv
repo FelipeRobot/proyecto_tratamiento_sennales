@@ -1,4 +1,4 @@
-%-----Agregado direeciones de los 
+%Agregado direeciones de archivos
 
 addpath('actividades_preparacion\');
 addpath('Respuesta Impulso\');
@@ -8,17 +8,16 @@ addpath('Escalamiento\');
 
 main();
 
-%-----------------------
+%Declaración del main
 
 function main()
-
 state_holder(); %llamado del menú
 
 end
 
 function state_holder()
-    
-    state = menu('Seleccione una opción: ','Ejecución actividades preparación' ,'Escalamiento', 'Inversión en tiempo','Respuesta impulso' );
+    msg = " PRIMER PROYECTO MATLAB SEÑALES Y SISTEMAS _ FELIPE USECHE  & JUAN CONRADO";
+    state = menu( msg,'Ejecución actividades preparación' ,'Escalamiento', 'Inversión en tiempo','Respuesta impulso' );
     
         switch state 
             case 1
@@ -33,6 +32,7 @@ function state_holder()
             case 4 
                 impulso();
                 main();
+            case 5
+                impulso
         end
-end       
-       
+end
